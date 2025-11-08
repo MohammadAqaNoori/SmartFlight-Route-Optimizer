@@ -1,0 +1,25 @@
+{
+  "airports": ["ISB", "KHI", "LHE", "PEW", "DXB", "LHR", "JFK", "NRT"],
+  "flights": [
+    {"from": "ISB", "to": "KHI", "cost": 5000, "time": 2.0, "distance": 1100},
+    {"from": "KHI", "to": "ISB", "cost": 5000, "time": 2.0, "distance": 1100},
+    {"from": "KHI", "to": "LHE", "cost": 4000, "time": 1.5, "distance": 1000},
+    {"from": "LHE", "to": "KHI", "cost": 4000, "time": 1.5, "distance": 1000},
+    {"from": "ISB", "to": "PEW", "cost": 3000, "time": 1.0, "distance": 150},
+    {"from": "PEW", "to": "ISB", "cost": 3000, "time": 1.0, "distance": 150},
+    {"from": "PEW", "to": "LHE", "cost": 1500, "time": 1.0, "distance": 400},
+    {"from": "LHE", "to": "PEW", "cost": 1500, "time": 1.0, "distance": 400},
+    {"from": "KHI", "to": "PEW", "cost": 3500, "time": 1.5, "distance": 900},
+    {"from": "ISB", "to": "DXB", "cost": 15000, "time": 3.0, "distance": 1950},
+    {"from": "KHI", "to": "DXB", "cost": 12000, "time": 2.5, "distance": 1200},
+    {"from": "DXB", "to": "ISB", "cost": 15000, "time": 3.0, "distance": 1950},
+    {"from": "DXB", "to": "LHR", "cost": 20000, "time": 7.0, "distance": 5500},
+    {"from": "LHR", "to": "DXB", "cost": 20000, "time": 7.0, "distance": 5500},
+    {"from": "DXB", "to": "JFK", "cost": 30000, "time": 14.0, "distance": 11000},
+    {"from": "JFK", "to": "DXB", "cost": 30000, "time": 14.0, "distance": 11000},
+    {"from": "LHR", "to": "JFK", "cost": 25000, "time": 7.5, "distance": 5500},
+    {"from": "JFK", "to": "LHR", "cost": 25000, "time": 7.5, "distance": 5500},
+    {"from": "DXB", "to": "NRT", "cost": 28000, "time": 9.0, "distance": 8000},
+    {"from": "NRT", "to": "JFK", "cost": 35000, "time": 13.0, "distance": 10800}
+  ]
+}
